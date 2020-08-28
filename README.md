@@ -26,8 +26,10 @@ $CompositionalHumanParsing
 ````
 
 ## Running the code
+1. Download the [pre-trained model](https://drive.google.com/file/d/1leUhWmHRHmpRtzSliTMsJVbrmOm8Fo4V/view?usp=sharing).
+2. 
 ```bash
-python evaluate.py --root <path to the dataset>
+python evaluate.py --root <path to the dataset> --restore_from <path to the pre-traiend model>
 ```
 
 ***
